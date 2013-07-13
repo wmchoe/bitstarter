@@ -5,7 +5,7 @@ var app = express.createServer(express.logger());
 var fs = require('fs');
  
 var buf = new Buffer(8);
-buffer = fs.readFileSync('index.html');
+buf = fs.readFileSync('index.html');
 var output = buf.toString('ascii');
 
 
